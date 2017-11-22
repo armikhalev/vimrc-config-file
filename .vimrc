@@ -1,6 +1,4 @@
-execute pathogen#infect()
 syntax enable
-filetype plugin indent on
 set ruler
 set guifont=Source_Code_Pro:h12
 set tabstop=4
@@ -20,3 +18,4 @@ filetype plugin indent on
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
